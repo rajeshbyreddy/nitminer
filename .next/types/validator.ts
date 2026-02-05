@@ -203,6 +203,15 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
+// Validate ../../src/app/api/auth/generate-token/route.ts
+{
+  type __IsExpected<Specific extends RouteHandlerConfig<"/api/auth/generate-token">> = Specific
+  const handler = {} as typeof import("../../src/app/api/auth/generate-token/route.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../src/app/api/auth/send-otp/route.ts
 {
   type __IsExpected<Specific extends RouteHandlerConfig<"/api/auth/send-otp">> = Specific
@@ -306,6 +315,15 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
 {
   type __IsExpected<Specific extends RouteHandlerConfig<"/api/pricing">> = Specific
   const handler = {} as typeof import("../../src/app/api/pricing/route.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/api/trustinn/validate-access/route.ts
+{
+  type __IsExpected<Specific extends RouteHandlerConfig<"/api/trustinn/validate-access">> = Specific
+  const handler = {} as typeof import("../../src/app/api/trustinn/validate-access/route.js")
   type __Check = __IsExpected<typeof handler>
   // @ts-ignore
   type __Unused = __Check

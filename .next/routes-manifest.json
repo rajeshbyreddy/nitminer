@@ -131,6 +131,12 @@
       "namedRegex": "^/api/auth/check(?:/)?$"
     },
     {
+      "page": "/api/auth/generate-token",
+      "regex": "^/api/auth/generate\\-token(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/auth/generate\\-token(?:/)?$"
+    },
+    {
       "page": "/api/auth/send-otp",
       "regex": "^/api/auth/send\\-otp(?:/)?$",
       "routeKeys": {},
@@ -201,6 +207,12 @@
       "regex": "^/api/pricing(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/api/pricing(?:/)?$"
+    },
+    {
+      "page": "/api/trustinn/validate-access",
+      "regex": "^/api/trustinn/validate\\-access(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/trustinn/validate\\-access(?:/)?$"
     },
     {
       "page": "/api/user/activity",

@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/rajeshbyreddy/nitminer/client/src/app/dashboard/page.tsx"],"sourcesContent":["'use client';\n\nimport { useState, useEffect } from 'react';\nimport { useRouter } from 'next/navigation';\nimport {\n  BarChart3,\n  TrendingUp,\n  Users,\n  DollarSign,\n  Activity,\n  Zap,\n  Calendar,\n  Target\n} from 'lucide-react';\nimport {\n  BarChart,\n  Bar,\n  XAxis,\n  YAxis,\n  CartesianGrid,\n  Tooltip,\n  ResponsiveContainer,\n  LineChart,\n  Line,\n  PieChart,\n  Pie,\n  Cell\n} from 'recharts';\nimport DashboardLayout from '@/components/dashboard/DashboardLayout';\nimport ProfileTab from '@/components/dashboard/ProfileTab';\nimport PaymentsTab from '@/components/dashboard/PaymentsTab';\nimport UsageTab from '@/components/dashboard/UsageTab';\nimport Header from '@/components/Header';\n\nexport default function DashboardPage() {\n  const [activeTab, setActiveTab] = useState('profile');\n\n  return (\n    <>\n    \n    </>\n  );\n}\n"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAkCe,SAAS;IACtB,MAAM,CAAC,WAAW,aAAa,GAAG,IAAA,iNAAQ,EAAC;IAE3C,qBACE;AAIJ"}}]
-}
