@@ -1,0 +1,3 @@
+{
+  "/api/auth/session/invalidate-others/route": "app/api/auth/session/invalidate-others/route.js"
+}

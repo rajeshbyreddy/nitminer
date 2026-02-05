@@ -1,0 +1,11 @@
+[00:00:01.385] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:01.753] Server  LOG     [CRON] Subscription expiry check scheduled for daily at 12:00 AM
+[00:00:01.762] Server  WARN    ⚠ Duplicate page detected. src/app/admin/login/page.js and src/app/admin/login/page.tsx resolve to /admin/login
+[00:00:01.762] Server  WARN    ⚠ Duplicate page detected. src/app/admin/login/page.js and src/app/admin/login/page.tsx resolve to /admin/login
+[00:00:01.763] Server  LOG     ✓ Ready in 1514ms
+[00:00:07.415] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:02.619] Server  LOG     ✓ Compiled in 843ms
+[00:01:16.847] Server  LOG     ✓ Compiled in 165ms
+[00:01:22.110] Server  LOG     ✓ Compiled in 333ms
+[00:01:29.336] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:31.112] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
