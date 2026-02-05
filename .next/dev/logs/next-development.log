@@ -1,2 +1,34 @@
-[01:08:22.716] Server  LOG       Reload env: .env.local
-[01:08:23.544] Server  LOG     ✓ Compiled in 763ms
+[00:00:00.963] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:01.289] Server  LOG     [CRON] Subscription expiry check scheduled for daily at 12:00 AM
+[00:00:01.296] Server  WARN    ⚠ Duplicate page detected. src/app/admin/login/page.js and src/app/admin/login/page.tsx resolve to /admin/login
+[00:00:01.296] Server  WARN    ⚠ Duplicate page detected. src/app/admin/login/page.js and src/app/admin/login/page.tsx resolve to /admin/login
+[00:00:01.297] Server  LOG     ✓ Ready in 1061ms
+[00:00:09.310] Browser LOG     Device info generated: {"browser":"Chrome","deviceId":"device_1770183424001_htlmsdzdy2v","deviceName":"Mac","fingerprint":"72b0984bc361e2e4318dc0d64430ee97aa304d6491328981c41282d78d92108b","os":"macOS"}
+[00:00:09.310] Browser LOG     Device info generated: {"browser":"Chrome","deviceId":"device_1770183424001_htlmsdzdy2v","deviceName":"Mac","fingerprint":"72b0984bc361e2e4318dc0d64430ee97aa304d6491328981c41282d78d92108b","os":"macOS"}
+[00:00:09.310] Browser WARN    Image with src "/auth/login_png.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:56.442] Server  ERROR   Duplicate session check error: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[00:00:56.509] Server  LOG     Authorize called with: {}
+[00:00:56.509] Server  LOG     Regular user login
+[00:00:56.552] Browser LOG     Duplicate check response: {"error":"Failed to check duplicate sessions"}
+[00:00:56.552] Browser LOG     No duplicate session, proceeding with login
+[00:01:26.631] Server  ERROR   Auth error: MongooseServerSelectionError: Could not connect to any servers in your MongoDB Atlas cluster. One common reason is that you're trying to access the database from an IP that isn't whitelisted. Make sure your current IP address is on your Atlas cluster's IP whitelist: https://www.mongodb.com/docs/atlas/security-whitelist/
+[00:03:22.903] Server  LOG       Reload env: .env.local
+[00:03:23.207] Server  LOG     ✓ Compiled in 274ms
+[00:03:23.241] Server  LOG     ✓ Compiled in 0ms
+[00:03:25.603] Server  LOG       Reload env: .env.local
+[00:06:58.910] Server  LOG       Reload env: .env.local
+[00:07:01.316] Server  LOG       Reload env: .env.local
+[00:07:13.952] Server  LOG     Checking duplicate sessions for rajeshbyreddy95@gmail.com, browser: Chrome
+[00:07:14.300] Server  LOG     Found 0 active sessions for rajeshbyreddy95@gmail.com
+[00:07:14.301] Server  LOG     Found 0 conflicting sessions
+[00:07:14.413] Browser LOG     Duplicate check response: {"existingSessions":[],"isDuplicate":false}
+[00:07:14.413] Browser LOG     No duplicate session, proceeding with login
+[00:07:14.427] Server  LOG     Authorize called with: {}
+[00:07:14.427] Server  LOG     Regular user login
+[00:07:14.466] Server  LOG     User not found
+[00:07:14.540] Server  ERROR   Auth error: Error: User not found
+[00:07:17.887] Server  LOG     Checking duplicate sessions for google-user, browser: Chrome
+[00:07:17.926] Server  LOG     Found 0 active sessions for google-user
+[00:07:17.927] Server  LOG     Found 0 conflicting sessions
+[00:07:17.984] Server  ERROR   (node:11049) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+(Use `node --trace-deprecation ...` to show where the warning was created)

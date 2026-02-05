@@ -197,7 +197,7 @@ export default function LoginComponent() {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({
-                userId: session?.user?.id || email, // Use email as fallback
+                userId: email, // Use email as unique identifier
                 email,
                 deviceId: deviceInfo.deviceId,
                 deviceFingerprint: deviceInfo.fingerprint,
@@ -207,10 +207,16 @@ export default function LoginComponent() {
               }),
             });
 
-            const data = await response.json();
-            if (data.success && data.sessionToken) {
-              localStorage.setItem('session_token', data.sessionToken);
-              localStorage.setItem('session_id', data.sessionId);
+            if (!response.ok) {
+              console.error(`[LOGIN] Session creation failed: ${response.status} ${response.statusText}`);
+              const errorText = await response.text();
+              console.error('[LOGIN] Error response:', errorText);
+            } else {
+              const data = await response.json();
+              if (data.success && data.sessionToken) {
+                localStorage.setItem('session_token', data.sessionToken);
+                localStorage.setItem('session_id', data.sessionId);
+              }
             }
           } catch (error) {
             console.error('Error creating session:', error);

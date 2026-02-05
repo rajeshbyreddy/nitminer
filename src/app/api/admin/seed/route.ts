@@ -5,12 +5,15 @@ import { NextRequest, NextResponse } from 'next/server';
 
 export async function POST(req: NextRequest) {
   try {
+    console.log('[ADMIN-SEED] Starting admin user creation...');
     await dbConnect();
+    console.log('[ADMIN-SEED] Connected to database');
 
     // Check if admin already exists
     const existingAdmin = await User.findOne({ email: 'admin@nitminer.com' });
 
     if (existingAdmin) {
+      console.log('[ADMIN-SEED] Admin already exists');
       return NextResponse.json(
         {
           message: 'Admin user already exists',
@@ -36,6 +39,7 @@ export async function POST(req: NextRequest) {
     });
 
     await adminUser.save();
+    console.log('[ADMIN-SEED] Admin user created successfully');
 
     return NextResponse.json(
       {
@@ -48,9 +52,14 @@ export async function POST(req: NextRequest) {
       { status: 201 }
     );
   } catch (error) {
-    console.error('Admin seed error:', error);
+    console.error('[ADMIN-SEED] Error:', error);
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
     return NextResponse.json(
-      { error: 'Failed to create admin user', message: (error as Error).message },
+      { 
+        error: 'Failed to create admin user',
+        message: errorMessage,
+        details: process.env.NODE_ENV === 'development' ? String(error) : undefined
+      },
       { status: 500 }
     );
   }
