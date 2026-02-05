@@ -245,9 +245,7 @@ function generateReceiptHTML(data: ReceiptData): string {
     <div class="receipt">
         <!-- Header -->
         <div class="header">
-            <div class="logo">
-                <img src="https://nitminer.com/logo_img/logo-rbg.png" alt="NIT Miner Logo" class="logo">
-            </div>
+            <div class="logo">T</div>
             <div class="company-info">
                 <h1>TRUSTINN</h1>
                 <p>Premium Tool Platform</p>

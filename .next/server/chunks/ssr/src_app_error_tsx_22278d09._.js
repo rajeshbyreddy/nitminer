@@ -1,0 +1,3 @@
+module.exports=[23953,a=>{"use strict";var b=a.i(87924);function c({error:a,reset:c}){return(0,b.jsxs)("div",{style:{padding:"20px",textAlign:"center"},children:[(0,b.jsx)("h2",{children:"Something went wrong!"}),(0,b.jsx)("p",{style:{color:"#666",marginBottom:"20px"},children:"An error occurred"}),(0,b.jsx)("button",{onClick:()=>c(),style:{padding:"10px 20px",marginTop:"10px",cursor:"pointer",backgroundColor:"#0070f3",color:"white",border:"none",borderRadius:"5px"},children:"Try again"})]})}a.s(["default",()=>c])}];
+
+//# sourceMappingURL=src_app_error_tsx_22278d09._.js.map

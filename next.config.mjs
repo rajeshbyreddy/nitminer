@@ -5,7 +5,7 @@ const nextConfig = {
   skipTrailingSlashRedirect: true,
   // Exclude auth-protected routes from static generation
   experimental: {
-    staticGenerationRetryCount: 0,
+    staticGenerationRetryCount: 3,
   },
   images: {
     remotePatterns: [
