@@ -5,6 +5,7 @@ import { FiMail, FiLock, FiEye, FiEyeOff, FiArrowRight, FiAlertCircle } from 're
 import Link from 'next/link';
 import Image from "next/image"
 import { useRouter } from 'next/navigation';
+import { signIn } from 'next-auth/react';
 import LoginTypeSelector from './LoginTypeSelector';
 
 export default function AdminLoginComponent() {
@@ -97,33 +98,27 @@ export default function AdminLoginComponent() {
         return;
       }
 
-      // Call login API
-      const response = await fetch('/api/auth/login', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          email: formData.email,
-          password: formData.password
-        })
+      // Use NextAuth signIn instead
+      const result = await signIn('credentials', {
+        email: formData.email,
+        password: formData.password,
+        redirect: false,
       });
 
-      const data = await response.json();
-
-      if (!response.ok) {
-        setError(data.message || 'Login failed');
+      if (result?.error) {
+        setError(result.error || 'Login failed');
         setIsLoading(false);
         return;
       }
 
-      // Store token
-      if (data.token) {
-        document.cookie = `token=${data.token}; path=/`;
+      if (result?.ok) {
+        setSuccess(true);
+        setTimeout(() => {
+          router.push('/admin/dashboard');
+        }, 1000);
+      } else {
+        setError('Login failed');
       }
-
-      setSuccess(true);
-      setTimeout(() => {
-        router.push('/admin/dashboard');
-      }, 1000);
     } catch (err) {
       setError(err.message || 'Login failed. Please try again.');
     } finally {
