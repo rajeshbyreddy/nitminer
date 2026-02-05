@@ -230,3 +230,4 @@ export function GalleryComponent() {
       </section>
     </>
   )
+}
