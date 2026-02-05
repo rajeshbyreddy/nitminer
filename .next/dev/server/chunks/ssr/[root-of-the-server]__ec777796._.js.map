@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///Users/rajeshbyreddy/nitminer/client/src/app/global-error.tsx"],"sourcesContent":["'use client'\n\nexport default function GlobalError({\n  error,\n  reset,\n}: {\n  error: Error & { digest?: string }\n  reset: () => void\n}) {\n  return (\n    <html>\n      <body>\n        <div style={{ padding: '20px', textAlign: 'center' }}>\n          <h2>Something went wrong!</h2>\n          <button\n            onClick={() => reset()}\n            style={{\n              padding: '10px 20px',\n              marginTop: '10px',\n              cursor: 'pointer',\n              backgroundColor: '#0070f3',\n              color: 'white',\n              border: 'none',\n              borderRadius: '5px',\n            }}\n          >\n            Try again\n          </button>\n        </div>\n      </body>\n    </html>\n  )\n}\n"],"names":[],"mappings":";;;;;AAAA;;AAEe,SAAS,YAAY,EAClC,KAAK,EACL,KAAK,EAIN;IACC,qBACE,8OAAC;kBACC,cAAA,8OAAC;sBACC,cAAA,8OAAC;gBAAI,OAAO;oBAAE,SAAS;oBAAQ,WAAW;gBAAS;;kCACjD,8OAAC;kCAAG;;;;;;kCACJ,8OAAC;wBACC,SAAS,IAAM;wBACf,OAAO;4BACL,SAAS;4BACT,WAAW;4BACX,QAAQ;4BACR,iBAAiB;4BACjB,OAAO;4BACP,QAAQ;4BACR,cAAc;wBAChB;kCACD;;;;;;;;;;;;;;;;;;;;;;AAOX"}}]
-}

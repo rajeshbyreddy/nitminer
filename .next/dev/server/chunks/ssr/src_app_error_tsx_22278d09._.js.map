@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/rajeshbyreddy/nitminer/client/src/app/error.tsx"],"sourcesContent":["'use client'\n\nexport default function Error({\n  error,\n  reset,\n}: {\n  error: Error & { digest?: string }\n  reset: () => void\n}) {\n  return (\n    <div style={{ padding: '20px', textAlign: 'center' }}>\n      <h2>Something went wrong!</h2>\n      <p style={{ color: '#666', marginBottom: '20px' }}>\n        {process.env.NODE_ENV === 'development' ? error.message : 'An error occurred'}\n      </p>\n      <button\n        onClick={() => reset()}\n        style={{\n          padding: '10px 20px',\n          marginTop: '10px',\n          cursor: 'pointer',\n          backgroundColor: '#0070f3',\n          color: 'white',\n          border: 'none',\n          borderRadius: '5px',\n        }}\n      >\n        Try again\n      </button>\n    </div>\n  )\n}\n"],"names":[],"mappings":";;;;;AAAA;;AAEe,SAAS,MAAM,EAC5B,KAAK,EACL,KAAK,EAIN;IACC,qBACE,8OAAC;QAAI,OAAO;YAAE,SAAS;YAAQ,WAAW;QAAS;;0BACjD,8OAAC;0BAAG;;;;;;0BACJ,8OAAC;gBAAE,OAAO;oBAAE,OAAO;oBAAQ,cAAc;gBAAO;0BAC7C,uCAAyC,MAAM,OAAO,GAAG;;;;;;0BAE5D,8OAAC;gBACC,SAAS,IAAM;gBACf,OAAO;oBACL,SAAS;oBACT,WAAW;oBACX,QAAQ;oBACR,iBAAiB;oBACjB,OAAO;oBACP,QAAQ;oBACR,cAAc;gBAChB;0BACD;;;;;;;;;;;;AAKP"}}]
-}
