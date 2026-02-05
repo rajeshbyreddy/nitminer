@@ -2699,17 +2699,19 @@ __turbopack_context__.s([
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/styled-jsx/style.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/compiler-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 "use client";
+;
 ;
 ;
 ;
 function TeamComponent() {
     const $ = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$compiler$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["c"])(11);
-    if ($[0] !== "f47e7f65118bc72b4d129ead6ef69bb3a8817b22cd9ca4d67d28376c961fd9dd") {
+    if ($[0] !== "0e1e0ea630573b47e4e1911e9d7b814478f6f953d3e661cc49b9441f09cb0d08") {
         for(let $i = 0; $i < 11; $i += 1){
             $[$i] = Symbol.for("react.memo_cache_sentinel");
         }
-        $[0] = "f47e7f65118bc72b4d129ead6ef69bb3a8817b22cd9ca4d67d28376c961fd9dd";
+        $[0] = "0e1e0ea630573b47e4e1911e9d7b814478f6f953d3e661cc49b9441f09cb0d08";
     }
     let t0;
     if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
@@ -2717,14 +2719,14 @@ function TeamComponent() {
             {
                 name: "Prof. P Radha Krishna",
                 position: "CEO and Director",
-                image: "https://nitminer.com/team/RadhaKrishna.png",
+                image: "/images/team/radhakrisha.png",
                 phone: "+91-XXXXXXXXXX",
                 email: "radha@nitw.ac.in"
             },
             {
                 name: "Dr. Sangharatna Godboley",
                 position: "Chairman and Director",
-                image: "https://nitminer.com/team/Sangharatna.jpg",
+                image: "/images/team/sangarthana.png",
                 phone: "+91-7013306805",
                 email: "sanghu@nitw.ac.in"
             }
@@ -2740,63 +2742,63 @@ function TeamComponent() {
             {
                 name: "Mrs. Vani Puligilla",
                 position: "Project Scientist",
-                image: "https://nitminer.com/team/Vani.jpg",
+                image: "/images/team/vani.png",
                 phone: "+91-XXXXXXXXXX",
                 email: "vani@nitw.ac.in"
             },
             {
                 name: "Mr. Abhiraj Kumar",
                 position: "Sr. Software Engineer",
-                image: "https://nitminer.com/team/Abhiraj.jpg",
+                image: "/images/team/abhirajkumar.png",
                 phone: "+91-XXXXXXXXXX",
                 email: "abhiraj@nitw.ac.in"
             },
             {
                 name: "Mr. Kandrathi Chandrashekar",
                 position: "Sr. Software Engineer",
-                image: "https://nitminer.com/team/Chandrashekar.jpg",
+                image: "/images/team/chandrasekhar.png",
                 phone: "+91-XXXXXXXXXX",
                 email: "chandrashekar@nitw.ac.in"
             },
             {
                 name: "Mr. Nallella Nihal",
                 position: "Jr. Software Engineer",
-                image: "https://nitminer.com/team/Nihal.jpg",
+                image: "/images/team/nihal.png",
                 phone: "+91-XXXXXXXXXX",
                 email: "nihal@nitw.ac.in"
             },
             {
                 name: "Mr. Raj Kumar Gunda",
                 position: "Jr. Programmer",
-                image: "https://nitminer.com/team/Raj.jpg",
+                image: "/images/team/rajkumar.png",
                 phone: "+91-XXXXXXXXXX",
                 email: "raj@nitw.ac.in"
             },
             {
                 name: "Mr. Vishal Kumar Swain",
                 position: "Junior Research Fellow (JRF)",
-                image: "https://nitminer.com/team/Vishal.jpg",
+                image: "/images/team/vishal.png",
                 phone: "+91-XXXXXXXXXX",
                 email: "vishal@nitw.ac.in"
             },
             {
                 name: "Mr. Kiran Kumar Sahu",
                 position: "Junior Research Fellow (JRF)",
-                image: "https://nitminer.com/team/Kiran.jpg",
+                image: "/images/team/kirankumar.png",
                 phone: "+91-XXXXXXXXXX",
                 email: "kiran@nitw.ac.in"
             },
             {
                 name: "Mr. Eti Dhanush",
                 position: "Intern",
-                image: "https://nitminer.com/team/Dhanush.jpg",
+                image: "/images/team/dhanush.png",
                 phone: "+91-XXXXXXXXXX",
                 email: "dhanush@nitw.ac.in"
             },
             {
                 name: "Ms. ShriLakshmi Kakati",
                 position: "Intern",
-                image: "https://nitminer.com/team/ShriLakshmi.jpg",
+                image: "/images/team/sreelakshmi.png",
                 phone: "+91-XXXXXXXXXX",
                 email: "shrilakshmi@nitw.ac.in"
             }
@@ -2850,13 +2852,13 @@ function TeamComponent() {
                             children: "Team"
                         }, void 0, false, {
                             fileName: "[project]/src/components/TeamComponent.jsx",
-                            lineNumber: 122,
+                            lineNumber: 123,
                             columnNumber: 140
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/components/TeamComponent.jsx",
-                    lineNumber: 122,
+                    lineNumber: 123,
                     columnNumber: 45
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2864,13 +2866,13 @@ function TeamComponent() {
                     children: "Meet the talented individuals driving innovation at NitMiner Technologies"
                 }, void 0, false, {
                     fileName: "[project]/src/components/TeamComponent.jsx",
-                    lineNumber: 122,
+                    lineNumber: 123,
                     columnNumber: 207
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/TeamComponent.jsx",
-            lineNumber: 122,
+            lineNumber: 123,
             columnNumber: 10
         }, this);
         $[6] = t5;
@@ -2887,7 +2889,7 @@ function TeamComponent() {
             children: "Leadership Team"
         }, void 0, false, {
             fileName: "[project]/src/components/TeamComponent.jsx",
-            lineNumber: 129,
+            lineNumber: 130,
             columnNumber: 10
         }, this);
         $[7] = t6;
@@ -2907,19 +2909,19 @@ function TeamComponent() {
                                 member: member_0
                             }, index, false, {
                                 fileName: "[project]/src/components/TeamComponent.jsx",
-                                lineNumber: 139,
+                                lineNumber: 140,
                                 columnNumber: 71
                             }, this)
                     }["TeamComponent[leadershipTeam.map()]"])
                 }, void 0, false, {
                     fileName: "[project]/src/components/TeamComponent.jsx",
-                    lineNumber: 138,
+                    lineNumber: 139,
                     columnNumber: 37
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/components/TeamComponent.jsx",
-            lineNumber: 138,
+            lineNumber: 139,
             columnNumber: 10
         }, this);
         $[8] = t7;
@@ -2936,7 +2938,7 @@ function TeamComponent() {
             children: "Our Supporting Team"
         }, void 0, false, {
             fileName: "[project]/src/components/TeamComponent.jsx",
-            lineNumber: 147,
+            lineNumber: 148,
             columnNumber: 10
         }, this);
         $[9] = t8;
@@ -2966,30 +2968,30 @@ function TeamComponent() {
                                                     member: member_1
                                                 }, index_0, false, {
                                                     fileName: "[project]/src/components/TeamComponent.jsx",
-                                                    lineNumber: 157,
+                                                    lineNumber: 158,
                                                     columnNumber: 79
                                                 }, this)
                                         }["TeamComponent[supportingTeam.map()]"])
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/TeamComponent.jsx",
-                                        lineNumber: 156,
+                                        lineNumber: 157,
                                         columnNumber: 216
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/TeamComponent.jsx",
-                                lineNumber: 156,
+                                lineNumber: 157,
                                 columnNumber: 207
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/TeamComponent.jsx",
-                        lineNumber: 156,
+                        lineNumber: 157,
                         columnNumber: 143
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/TeamComponent.jsx",
-                    lineNumber: 156,
+                    lineNumber: 157,
                     columnNumber: 16
                 }, this)
             ]
@@ -3018,12 +3020,12 @@ function _TeamComponentTeamCard(t0) {
                             alt: member.name
                         }, void 0, false, {
                             fileName: "[project]/src/components/TeamComponent.jsx",
-                            lineNumber: 169,
+                            lineNumber: 170,
                             columnNumber: 269
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/TeamComponent.jsx",
-                        lineNumber: 169,
+                        lineNumber: 170,
                         columnNumber: 247
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3036,7 +3038,7 @@ function _TeamComponentTeamCard(t0) {
                                 children: member.name
                             }, void 0, false, {
                                 fileName: "[project]/src/components/TeamComponent.jsx",
-                                lineNumber: 169,
+                                lineNumber: 170,
                                 columnNumber: 440
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3045,34 +3047,34 @@ function _TeamComponentTeamCard(t0) {
                                     children: member.position
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/TeamComponent.jsx",
-                                    lineNumber: 171,
+                                    lineNumber: 172,
                                     columnNumber: 116
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/TeamComponent.jsx",
-                                lineNumber: 171,
+                                lineNumber: 172,
                                 columnNumber: 32
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/TeamComponent.jsx",
-                        lineNumber: 169,
+                        lineNumber: 170,
                         columnNumber: 435
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/TeamComponent.jsx",
-                lineNumber: 169,
+                lineNumber: 170,
                 columnNumber: 130
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/TeamComponent.jsx",
-            lineNumber: 169,
+            lineNumber: 170,
             columnNumber: 47
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/TeamComponent.jsx",
-        lineNumber: 169,
+        lineNumber: 170,
         columnNumber: 10
     }, this);
 }

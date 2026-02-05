@@ -1,9 +1,10 @@
-[00:00:01.020] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
-[00:00:01.371] Server  LOG     [CRON] Subscription expiry check scheduled for daily at 12:00 AM
-[00:00:01.378] Server  WARN    ⚠ Duplicate page detected. src/app/admin/login/page.js and src/app/admin/login/page.tsx resolve to /admin/login
-[00:00:01.378] Server  WARN    ⚠ Duplicate page detected. src/app/admin/login/page.js and src/app/admin/login/page.tsx resolve to /admin/login
-[00:00:01.378] Server  LOG     ✓ Ready in 1126ms
-[00:01:26.963] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:01.258] Server  WARN    ⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+[00:00:01.589] Server  LOG     [CRON] Subscription expiry check scheduled for daily at 12:00 AM
+[00:00:01.603] Server  WARN    ⚠ Duplicate page detected. src/app/admin/login/page.js and src/app/admin/login/page.tsx resolve to /admin/login
+[00:00:01.603] Server  WARN    ⚠ Duplicate page detected. src/app/admin/login/page.js and src/app/admin/login/page.tsx resolve to /admin/login
+[00:00:01.603] Server  LOG     ✓ Ready in 1355ms
+[00:00:03.459] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.599] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -20,564 +21,77 @@ It can also happen if the client has a browser extension installed which messes 
       <ScrollAndFocusHandler segmentPath={[...]}>
         <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
           <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-            <LoadingBoundary name="gallery/" loading={null}>
+            <LoadingBoundary name="team/" loading={null}>
               <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
                 <RedirectBoundary>
                   <RedirectErrorBoundary router={{...}}>
-                    <InnerLayoutRouter url="/gallery" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
-                      <SegmentViewNode type="page" pagePath="gallery/pa...">
+                    <InnerLayoutRouter url="/team" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                      <SegmentViewNode type="page" pagePath="team/page.js">
                         <SegmentTrieNode>
-                        <GalleryPage>
-                          <GalleryComponent>
-                            <JSXStyle>
-                            <section className="w-full bg-..." style={{...}} suppressHydrationWarning={true}>
-                              <Header>
-                              <div
-+                               className="py-16 md:py-24 bg-blue-600 text-white"
--                               className="jsx-684ea67d230a00e1 py-16 md:py-24 bg-blue-600 text-white"
-                              >
-                                <div
-+                                 className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
--                                 className="jsx-684ea67d230a00e1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center"
-                                >
-                                  <h1>
-                                  <p
-+                                   className="text-xl text-white/90 max-w-2xl mx-auto font-medium"
--                                   className="jsx-684ea67d230a00e1 text-xl text-white/90 max-w-2xl mx-auto font-medium"
-                                  >
-+                                   {"Explore our team, workspace, and the amazing projects we've accomplished together."}
-                              <div
-+                               className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24"
--                               className="jsx-684ea67d230a00e1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24"
-                              >
-                                <div
-+                                 className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
--                                 className="jsx-684ea67d230a00e1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
+                        <TeamPage>
+                          <div className="flex min-h...">
+                            <Header>
+                            <main className="flex flex-...">
+                              <TeamComponent>
+                                <JSXStyle>
+                                <section
++                                 className="w-full py-16 md:py-24 bg-gradient-to-b from-slate-50 to-white dark:from-z..."
+-                                 className="jsx-684ea67d230a00e1 w-full py-16 md:py-24 bg-gradient-to-b from-slate-50..."
+                                  style={{fontFamily:"Inter, sys..."}}
                                 >
                                   <div
-                                    onClick={function GalleryComponent[images.map() > <div>.onClick]}
-+                                   className="group cursor-pointer overflow-hidden rounded-2xl shadow-lg hover:shadow..."
--                                   className="jsx-684ea67d230a00e1 group cursor-pointer overflow-hidden rounded-2xl s..."
++                                   className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+-                                   className="jsx-684ea67d230a00e1 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
                                   >
                                     <div
-+                                     className="relative h-64 overflow-hidden"
--                                     className="jsx-684ea67d230a00e1 relative h-64 overflow-hidden"
++                                     className="text-center mb-16"
+-                                     className="jsx-684ea67d230a00e1 text-center mb-16"
                                     >
-                                      <img
-                                        src="https://nitminer.com/gallery/G1.png"
-                                        alt="Team Collaboration"
-+                                       className="object-cover w-full h-full group-hover:scale-110 transition-transfo..."
--                                       className="jsx-684ea67d230a00e1 object-cover w-full h-full group-hover:scale-1..."
-                                        loading="lazy"
-                                        onError={function _GalleryComponentImagesMapImgOnError}
+                                      <h1
++                                       className="text-4xl md:text-5xl font-black mb-4 text-black dark:text-white"
+-                                       className="jsx-684ea67d230a00e1 text-4xl md:text-5xl font-black mb-4 text-blac..."
+                                        style={{fontFamily:"Space Grot..."}}
                                       >
-                                      <div
-+                                       className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-all ..."
--                                       className="jsx-684ea67d230a00e1 absolute inset-0 bg-black/0 group-hover:bg-bla..."
-                                      >
-                                        <div
-+                                         className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
--                                         className="jsx-684ea67d230a00e1 opacity-0 group-hover:opacity-100 transition..."
+                                        <span
++                                         className="text-blue-600 dark:text-blue-400"
+-                                         className="jsx-684ea67d230a00e1 text-blue-600 dark:text-blue-400"
                                         >
-                                          <p
-+                                           className="text-white font-black text-center px-4 text-lg"
--                                           className="jsx-684ea67d230a00e1 text-white font-black text-center px-4 tex..."
-                                            style={{fontFamily:"Space Grot..."}}
-                                          >
-+                                           Team Collaboration
-                                  <div
-                                    onClick={function GalleryComponent[images.map() > <div>.onClick]}
-+                                   className="group cursor-pointer overflow-hidden rounded-2xl shadow-lg hover:shadow..."
--                                   className="jsx-684ea67d230a00e1 group cursor-pointer overflow-hidden rounded-2xl s..."
-                                  >
++                                         Team
+                                      <p
++                                       className="text-lg text-gray-600 dark:text-gray-300 max-w-2xl mx-auto font-medium"
+-                                       className="jsx-684ea67d230a00e1 text-lg text-gray-600 dark:text-gray-300 max-w..."
+                                      >
++                                       Meet the talented individuals driving innovation at NitMiner Technologies
                                     <div
-+                                     className="relative h-64 overflow-hidden"
--                                     className="jsx-684ea67d230a00e1 relative h-64 overflow-hidden"
++                                     className="mb-20"
+-                                     className="jsx-684ea67d230a00e1 mb-20"
                                     >
-                                      <img
-                                        src="https://nitminer.com/gallery/G2.png"
-                                        alt="Tech Innovation"
-+                                       className="object-cover w-full h-full group-hover:scale-110 transition-transfo..."
--                                       className="jsx-684ea67d230a00e1 object-cover w-full h-full group-hover:scale-1..."
-                                        loading="lazy"
-                                        onError={function _GalleryComponentImagesMapImgOnError}
+                                      <h2
++                                       className="text-3xl font-black mb-12 text-black dark:text-white"
+-                                       className="jsx-684ea67d230a00e1 text-3xl font-black mb-12 text-black dark:text..."
+                                        style={{fontFamily:"Space Grot..."}}
                                       >
++                                       Leadership Team
                                       <div
-+                                       className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-all ..."
--                                       className="jsx-684ea67d230a00e1 absolute inset-0 bg-black/0 group-hover:bg-bla..."
++                                       className="grid md:grid-cols-2 lg:grid-cols-2 gap-8"
+-                                       className="jsx-684ea67d230a00e1 grid md:grid-cols-2 lg:grid-cols-2 gap-8"
                                       >
-                                        <div
-+                                         className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
--                                         className="jsx-684ea67d230a00e1 opacity-0 group-hover:opacity-100 transition..."
-                                        >
-                                          <p
-+                                           className="text-white font-black text-center px-4 text-lg"
--                                           className="jsx-684ea67d230a00e1 text-white font-black text-center px-4 tex..."
-                                            style={{fontFamily:"Space Grot..."}}
-                                          >
-+                                           Tech Innovation
-                                  <div
-                                    onClick={function GalleryComponent[images.map() > <div>.onClick]}
-+                                   className="group cursor-pointer overflow-hidden rounded-2xl shadow-lg hover:shadow..."
--                                   className="jsx-684ea67d230a00e1 group cursor-pointer overflow-hidden rounded-2xl s..."
-                                  >
                                     <div
-+                                     className="relative h-64 overflow-hidden"
--                                     className="jsx-684ea67d230a00e1 relative h-64 overflow-hidden"
+-                                     className="jsx-684ea67d230a00e1"
                                     >
-                                      <img
-                                        src="https://nitminer.com/gallery/G3.png"
-                                        alt="Code Development"
-+                                       className="object-cover w-full h-full group-hover:scale-110 transition-transfo..."
--                                       className="jsx-684ea67d230a00e1 object-cover w-full h-full group-hover:scale-1..."
-                                        loading="lazy"
-                                        onError={function _GalleryComponentImagesMapImgOnError}
+                                      <h2
++                                       className="text-3xl font-black mb-12 text-black dark:text-white"
+-                                       className="jsx-684ea67d230a00e1 text-3xl font-black mb-12 text-black dark:text..."
+                                        style={{fontFamily:"Space Grot..."}}
                                       >
++                                       Our Supporting Team
                                       <div
-+                                       className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-all ..."
--                                       className="jsx-684ea67d230a00e1 absolute inset-0 bg-black/0 group-hover:bg-bla..."
++                                       className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
+-                                       className="jsx-684ea67d230a00e1 grid md:grid-cols-2 lg:grid-cols-3 gap-8"
                                       >
-                                        <div
-+                                         className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
--                                         className="jsx-684ea67d230a00e1 opacity-0 group-hover:opacity-100 transition..."
-                                        >
-                                          <p
-+                                           className="text-white font-black text-center px-4 text-lg"
--                                           className="jsx-684ea67d230a00e1 text-white font-black text-center px-4 tex..."
-                                            style={{fontFamily:"Space Grot..."}}
-                                          >
-+                                           Code Development
-                                  <div
-                                    onClick={function GalleryComponent[images.map() > <div>.onClick]}
-+                                   className="group cursor-pointer overflow-hidden rounded-2xl shadow-lg hover:shadow..."
--                                   className="jsx-684ea67d230a00e1 group cursor-pointer overflow-hidden rounded-2xl s..."
-                                  >
-                                    <div
-+                                     className="relative h-64 overflow-hidden"
--                                     className="jsx-684ea67d230a00e1 relative h-64 overflow-hidden"
-                                    >
-                                      <img
-                                        src="https://nitminer.com/gallery/G4.png"
-                                        alt="Office Environment"
-+                                       className="object-cover w-full h-full group-hover:scale-110 transition-transfo..."
--                                       className="jsx-684ea67d230a00e1 object-cover w-full h-full group-hover:scale-1..."
-                                        loading="lazy"
-                                        onError={function _GalleryComponentImagesMapImgOnError}
-                                      >
-                                      <div
-+                                       className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-all ..."
--                                       className="jsx-684ea67d230a00e1 absolute inset-0 bg-black/0 group-hover:bg-bla..."
-                                      >
-                                        <div
-+                                         className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
--                                         className="jsx-684ea67d230a00e1 opacity-0 group-hover:opacity-100 transition..."
-                                        >
-                                          <p
-+                                           className="text-white font-black text-center px-4 text-lg"
--                                           className="jsx-684ea67d230a00e1 text-white font-black text-center px-4 tex..."
-                                            style={{fontFamily:"Space Grot..."}}
-                                          >
-+                                           Office Environment
-                                  <div
-                                    onClick={function GalleryComponent[images.map() > <div>.onClick]}
-+                                   className="group cursor-pointer overflow-hidden rounded-2xl shadow-lg hover:shadow..."
--                                   className="jsx-684ea67d230a00e1 group cursor-pointer overflow-hidden rounded-2xl s..."
-                                  >
-                                    <div
-+                                     className="relative h-64 overflow-hidden"
--                                     className="jsx-684ea67d230a00e1 relative h-64 overflow-hidden"
-                                    >
-                                      <img
-                                        src="https://nitminer.com/gallery/G5.png"
-                                        alt="Team Meeting"
-+                                       className="object-cover w-full h-full group-hover:scale-110 transition-transfo..."
--                                       className="jsx-684ea67d230a00e1 object-cover w-full h-full group-hover:scale-1..."
-                                        loading="lazy"
-                                        onError={function _GalleryComponentImagesMapImgOnError}
-                                      >
-                                      <div
-+                                       className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-all ..."
--                                       className="jsx-684ea67d230a00e1 absolute inset-0 bg-black/0 group-hover:bg-bla..."
-                                      >
-                                        <div
-+                                         className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
--                                         className="jsx-684ea67d230a00e1 opacity-0 group-hover:opacity-100 transition..."
-                                        >
-                                          <p
-+                                           className="text-white font-black text-center px-4 text-lg"
--                                           className="jsx-684ea67d230a00e1 text-white font-black text-center px-4 tex..."
-                                            style={{fontFamily:"Space Grot..."}}
-                                          >
-+                                           Team Meeting
-                                  <div
-                                    onClick={function GalleryComponent[images.map() > <div>.onClick]}
-+                                   className="group cursor-pointer overflow-hidden rounded-2xl shadow-lg hover:shadow..."
--                                   className="jsx-684ea67d230a00e1 group cursor-pointer overflow-hidden rounded-2xl s..."
-                                  >
-                                    <div
-+                                     className="relative h-64 overflow-hidden"
--                                     className="jsx-684ea67d230a00e1 relative h-64 overflow-hidden"
-                                    >
-                                      <img
-                                        src="https://nitminer.com/gallery/G6.png"
-                                        alt="Workshop Session"
-+                                       className="object-cover w-full h-full group-hover:scale-110 transition-transfo..."
--                                       className="jsx-684ea67d230a00e1 object-cover w-full h-full group-hover:scale-1..."
-                                        loading="lazy"
-                                        onError={function _GalleryComponentImagesMapImgOnError}
-                                      >
-                                      <div
-+                                       className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-all ..."
--                                       className="jsx-684ea67d230a00e1 absolute inset-0 bg-black/0 group-hover:bg-bla..."
-                                      >
-                                        <div
-+                                         className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
--                                         className="jsx-684ea67d230a00e1 opacity-0 group-hover:opacity-100 transition..."
-                                        >
-                                          <p
-+                                           className="text-white font-black text-center px-4 text-lg"
--                                           className="jsx-684ea67d230a00e1 text-white font-black text-center px-4 tex..."
-                                            style={{fontFamily:"Space Grot..."}}
-                                          >
-+                                           Workshop Session
-                                  <div
-                                    onClick={function GalleryComponent[images.map() > <div>.onClick]}
-+                                   className="group cursor-pointer overflow-hidden rounded-2xl shadow-lg hover:shadow..."
--                                   className="jsx-684ea67d230a00e1 group cursor-pointer overflow-hidden rounded-2xl s..."
-                                  >
-                                    <div
-+                                     className="relative h-64 overflow-hidden"
--                                     className="jsx-684ea67d230a00e1 relative h-64 overflow-hidden"
-                                    >
-                                      <img
-                                        src="https://nitminer.com/gallery/G7.png"
-                                        alt="Creative Process"
-+                                       className="object-cover w-full h-full group-hover:scale-110 transition-transfo..."
--                                       className="jsx-684ea67d230a00e1 object-cover w-full h-full group-hover:scale-1..."
-                                        loading="lazy"
-                                        onError={function _GalleryComponentImagesMapImgOnError}
-                                      >
-                                      <div
-+                                       className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-all ..."
--                                       className="jsx-684ea67d230a00e1 absolute inset-0 bg-black/0 group-hover:bg-bla..."
-                                      >
-                                        <div
-+                                         className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
--                                         className="jsx-684ea67d230a00e1 opacity-0 group-hover:opacity-100 transition..."
-                                        >
-                                          <p
-+                                           className="text-white font-black text-center px-4 text-lg"
--                                           className="jsx-684ea67d230a00e1 text-white font-black text-center px-4 tex..."
-                                            style={{fontFamily:"Space Grot..."}}
-                                          >
-+                                           Creative Process
-                                  <div
-                                    onClick={function GalleryComponent[images.map() > <div>.onClick]}
-+                                   className="group cursor-pointer overflow-hidden rounded-2xl shadow-lg hover:shadow..."
--                                   className="jsx-684ea67d230a00e1 group cursor-pointer overflow-hidden rounded-2xl s..."
-                                  >
-                                    <div
-+                                     className="relative h-64 overflow-hidden"
--                                     className="jsx-684ea67d230a00e1 relative h-64 overflow-hidden"
-                                    >
-                                      <img
-                                        src="https://nitminer.com/gallery/G8.png"
-                                        alt="Project Discussion"
-+                                       className="object-cover w-full h-full group-hover:scale-110 transition-transfo..."
--                                       className="jsx-684ea67d230a00e1 object-cover w-full h-full group-hover:scale-1..."
-                                        loading="lazy"
-                                        onError={function _GalleryComponentImagesMapImgOnError}
-                                      >
-                                      <div
-+                                       className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-all ..."
--                                       className="jsx-684ea67d230a00e1 absolute inset-0 bg-black/0 group-hover:bg-bla..."
-                                      >
-                                        <div
-+                                         className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
--                                         className="jsx-684ea67d230a00e1 opacity-0 group-hover:opacity-100 transition..."
-                                        >
-                                          <p
-+                                           className="text-white font-black text-center px-4 text-lg"
--                                           className="jsx-684ea67d230a00e1 text-white font-black text-center px-4 tex..."
-                                            style={{fontFamily:"Space Grot..."}}
-                                          >
-+                                           Project Discussion
-                                  <div
-                                    onClick={function GalleryComponent[images.map() > <div>.onClick]}
-+                                   className="group cursor-pointer overflow-hidden rounded-2xl shadow-lg hover:shadow..."
--                                   className="jsx-684ea67d230a00e1 group cursor-pointer overflow-hidden rounded-2xl s..."
-                                  >
-                                    <div
-+                                     className="relative h-64 overflow-hidden"
--                                     className="jsx-684ea67d230a00e1 relative h-64 overflow-hidden"
-                                    >
-                                      <img
-                                        src="https://nitminer.com/gallery/G9.png"
-                                        alt="Coding Session"
-+                                       className="object-cover w-full h-full group-hover:scale-110 transition-transfo..."
--                                       className="jsx-684ea67d230a00e1 object-cover w-full h-full group-hover:scale-1..."
-                                        loading="lazy"
-                                        onError={function _GalleryComponentImagesMapImgOnError}
-                                      >
-                                      <div
-+                                       className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-all ..."
--                                       className="jsx-684ea67d230a00e1 absolute inset-0 bg-black/0 group-hover:bg-bla..."
-                                      >
-                                        <div
-+                                         className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
--                                         className="jsx-684ea67d230a00e1 opacity-0 group-hover:opacity-100 transition..."
-                                        >
-                                          <p
-+                                           className="text-white font-black text-center px-4 text-lg"
--                                           className="jsx-684ea67d230a00e1 text-white font-black text-center px-4 tex..."
-                                            style={{fontFamily:"Space Grot..."}}
-                                          >
-+                                           Coding Session
-                                  <div
-                                    onClick={function GalleryComponent[images.map() > <div>.onClick]}
-+                                   className="group cursor-pointer overflow-hidden rounded-2xl shadow-lg hover:shadow..."
--                                   className="jsx-684ea67d230a00e1 group cursor-pointer overflow-hidden rounded-2xl s..."
-                                  >
-                                    <div
-+                                     className="relative h-64 overflow-hidden"
--                                     className="jsx-684ea67d230a00e1 relative h-64 overflow-hidden"
-                                    >
-                                      <img
-                                        src="https://nitminer.com/gallery/G10.jpg"
-                                        alt="Development Lab"
-+                                       className="object-cover w-full h-full group-hover:scale-110 transition-transfo..."
--                                       className="jsx-684ea67d230a00e1 object-cover w-full h-full group-hover:scale-1..."
-                                        loading="lazy"
-                                        onError={function _GalleryComponentImagesMapImgOnError}
-                                      >
-                                      <div
-+                                       className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-all ..."
--                                       className="jsx-684ea67d230a00e1 absolute inset-0 bg-black/0 group-hover:bg-bla..."
-                                      >
-                                        <div
-+                                         className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
--                                         className="jsx-684ea67d230a00e1 opacity-0 group-hover:opacity-100 transition..."
-                                        >
-                                          <p
-+                                           className="text-white font-black text-center px-4 text-lg"
--                                           className="jsx-684ea67d230a00e1 text-white font-black text-center px-4 tex..."
-                                            style={{fontFamily:"Space Grot..."}}
-                                          >
-+                                           Development Lab
-                                  <div
-                                    onClick={function GalleryComponent[images.map() > <div>.onClick]}
-+                                   className="group cursor-pointer overflow-hidden rounded-2xl shadow-lg hover:shadow..."
--                                   className="jsx-684ea67d230a00e1 group cursor-pointer overflow-hidden rounded-2xl s..."
-                                  >
-                                    <div
-+                                     className="relative h-64 overflow-hidden"
--                                     className="jsx-684ea67d230a00e1 relative h-64 overflow-hidden"
-                                    >
-                                      <img
-                                        src="https://nitminer.com/gallery/G11.jpg"
-                                        alt="Team Building"
-+                                       className="object-cover w-full h-full group-hover:scale-110 transition-transfo..."
--                                       className="jsx-684ea67d230a00e1 object-cover w-full h-full group-hover:scale-1..."
-                                        loading="lazy"
-                                        onError={function _GalleryComponentImagesMapImgOnError}
-                                      >
-                                      <div
-+                                       className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-all ..."
--                                       className="jsx-684ea67d230a00e1 absolute inset-0 bg-black/0 group-hover:bg-bla..."
-                                      >
-                                        <div
-+                                         className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
--                                         className="jsx-684ea67d230a00e1 opacity-0 group-hover:opacity-100 transition..."
-                                        >
-                                          <p
-+                                           className="text-white font-black text-center px-4 text-lg"
--                                           className="jsx-684ea67d230a00e1 text-white font-black text-center px-4 tex..."
-                                            style={{fontFamily:"Space Grot..."}}
-                                          >
-+                                           Team Building
-                                  <div
-                                    onClick={function GalleryComponent[images.map() > <div>.onClick]}
-+                                   className="group cursor-pointer overflow-hidden rounded-2xl shadow-lg hover:shadow..."
--                                   className="jsx-684ea67d230a00e1 group cursor-pointer overflow-hidden rounded-2xl s..."
-                                  >
-                                    <div
-+                                     className="relative h-64 overflow-hidden"
--                                     className="jsx-684ea67d230a00e1 relative h-64 overflow-hidden"
-                                    >
-                                      <img
-                                        src="https://nitminer.com/gallery/G12.jpg"
-                                        alt="Technology Stack"
-+                                       className="object-cover w-full h-full group-hover:scale-110 transition-transfo..."
--                                       className="jsx-684ea67d230a00e1 object-cover w-full h-full group-hover:scale-1..."
-                                        loading="lazy"
-                                        onError={function _GalleryComponentImagesMapImgOnError}
-                                      >
-                                      <div
-+                                       className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-all ..."
--                                       className="jsx-684ea67d230a00e1 absolute inset-0 bg-black/0 group-hover:bg-bla..."
-                                      >
-                                        <div
-+                                         className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
--                                         className="jsx-684ea67d230a00e1 opacity-0 group-hover:opacity-100 transition..."
-                                        >
-                                          <p
-+                                           className="text-white font-black text-center px-4 text-lg"
--                                           className="jsx-684ea67d230a00e1 text-white font-black text-center px-4 tex..."
-                                            style={{fontFamily:"Space Grot..."}}
-                                          >
-+                                           Technology Stack
-                                  <div
-                                    onClick={function GalleryComponent[images.map() > <div>.onClick]}
-+                                   className="group cursor-pointer overflow-hidden rounded-2xl shadow-lg hover:shadow..."
--                                   className="jsx-684ea67d230a00e1 group cursor-pointer overflow-hidden rounded-2xl s..."
-                                  >
-                                    <div
-+                                     className="relative h-64 overflow-hidden"
--                                     className="jsx-684ea67d230a00e1 relative h-64 overflow-hidden"
-                                    >
-                                      <img
-                                        src="https://nitminer.com/gallery/G13.jpg"
-                                        alt="Innovation Hub"
-+                                       className="object-cover w-full h-full group-hover:scale-110 transition-transfo..."
--                                       className="jsx-684ea67d230a00e1 object-cover w-full h-full group-hover:scale-1..."
-                                        loading="lazy"
-                                        onError={function _GalleryComponentImagesMapImgOnError}
-                                      >
-                                      <div
-+                                       className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-all ..."
--                                       className="jsx-684ea67d230a00e1 absolute inset-0 bg-black/0 group-hover:bg-bla..."
-                                      >
-                                        <div
-+                                         className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
--                                         className="jsx-684ea67d230a00e1 opacity-0 group-hover:opacity-100 transition..."
-                                        >
-                                          <p
-+                                           className="text-white font-black text-center px-4 text-lg"
--                                           className="jsx-684ea67d230a00e1 text-white font-black text-center px-4 tex..."
-                                            style={{fontFamily:"Space Grot..."}}
-                                          >
-+                                           Innovation Hub
-                                  <div
-                                    onClick={function GalleryComponent[images.map() > <div>.onClick]}
-+                                   className="group cursor-pointer overflow-hidden rounded-2xl shadow-lg hover:shadow..."
--                                   className="jsx-684ea67d230a00e1 group cursor-pointer overflow-hidden rounded-2xl s..."
-                                  >
-                                    <div
-+                                     className="relative h-64 overflow-hidden"
--                                     className="jsx-684ea67d230a00e1 relative h-64 overflow-hidden"
-                                    >
-                                      <img
-                                        src="https://nitminer.com/gallery/G14.jpg"
-                                        alt="Brainstorming"
-+                                       className="object-cover w-full h-full group-hover:scale-110 transition-transfo..."
--                                       className="jsx-684ea67d230a00e1 object-cover w-full h-full group-hover:scale-1..."
-                                        loading="lazy"
-                                        onError={function _GalleryComponentImagesMapImgOnError}
-                                      >
-                                      <div
-+                                       className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-all ..."
--                                       className="jsx-684ea67d230a00e1 absolute inset-0 bg-black/0 group-hover:bg-bla..."
-                                      >
-                                        <div
-+                                         className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
--                                         className="jsx-684ea67d230a00e1 opacity-0 group-hover:opacity-100 transition..."
-                                        >
-                                          <p
-+                                           className="text-white font-black text-center px-4 text-lg"
--                                           className="jsx-684ea67d230a00e1 text-white font-black text-center px-4 tex..."
-                                            style={{fontFamily:"Space Grot..."}}
-                                          >
-+                                           Brainstorming
-                                  <div
-                                    onClick={function GalleryComponent[images.map() > <div>.onClick]}
-+                                   className="group cursor-pointer overflow-hidden rounded-2xl shadow-lg hover:shadow..."
--                                   className="jsx-684ea67d230a00e1 group cursor-pointer overflow-hidden rounded-2xl s..."
-                                  >
-                                    <div
-+                                     className="relative h-64 overflow-hidden"
--                                     className="jsx-684ea67d230a00e1 relative h-64 overflow-hidden"
-                                    >
-                                      <img
-                                        src="https://nitminer.com/gallery/G15.jpg"
-                                        alt="Team Success"
-+                                       className="object-cover w-full h-full group-hover:scale-110 transition-transfo..."
--                                       className="jsx-684ea67d230a00e1 object-cover w-full h-full group-hover:scale-1..."
-                                        loading="lazy"
-                                        onError={function _GalleryComponentImagesMapImgOnError}
-                                      >
-                                      <div
-+                                       className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-all ..."
--                                       className="jsx-684ea67d230a00e1 absolute inset-0 bg-black/0 group-hover:bg-bla..."
-                                      >
-                                        <div
-+                                         className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
--                                         className="jsx-684ea67d230a00e1 opacity-0 group-hover:opacity-100 transition..."
-                                        >
-                                          <p
-+                                           className="text-white font-black text-center px-4 text-lg"
--                                           className="jsx-684ea67d230a00e1 text-white font-black text-center px-4 tex..."
-                                            style={{fontFamily:"Space Grot..."}}
-                                          >
-+                                           Team Success
-                                  <div
-                                    onClick={function GalleryComponent[images.map() > <div>.onClick]}
-+                                   className="group cursor-pointer overflow-hidden rounded-2xl shadow-lg hover:shadow..."
--                                   className="jsx-684ea67d230a00e1 group cursor-pointer overflow-hidden rounded-2xl s..."
-                                  >
-                                    <div
-+                                     className="relative h-64 overflow-hidden"
--                                     className="jsx-684ea67d230a00e1 relative h-64 overflow-hidden"
-                                    >
-                                      <img
-                                        src="https://nitminer.com/gallery/G16.jpg"
-                                        alt="Digital Solutions"
-+                                       className="object-cover w-full h-full group-hover:scale-110 transition-transfo..."
--                                       className="jsx-684ea67d230a00e1 object-cover w-full h-full group-hover:scale-1..."
-                                        loading="lazy"
-                                        onError={function _GalleryComponentImagesMapImgOnError}
-                                      >
-                                      <div
-+                                       className="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-all ..."
--                                       className="jsx-684ea67d230a00e1 absolute inset-0 bg-black/0 group-hover:bg-bla..."
-                                      >
-                                        <div
-+                                         className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
--                                         className="jsx-684ea67d230a00e1 opacity-0 group-hover:opacity-100 transition..."
-                                        >
-                                          <p
-+                                           className="text-white font-black text-center px-4 text-lg"
--                                           className="jsx-684ea67d230a00e1 text-white font-black text-center px-4 tex..."
-                                            style={{fontFamily:"Space Grot..."}}
-                                          >
-+                                           Digital Solutions
                       ...
                     ...
           ...
 
-[00:02:49.669] Browser LOG     Device info generated: {"browser":"Chrome","deviceId":"device_1770183424001_htlmsdzdy2v","deviceName":"Mac","fingerprint":"72b0984bc361e2e4318dc0d64430ee97aa304d6491328981c41282d78d92108b","os":"macOS"}
-[00:02:49.669] Browser LOG     Device info generated: {"browser":"Chrome","deviceId":"device_1770183424001_htlmsdzdy2v","deviceName":"Mac","fingerprint":"72b0984bc361e2e4318dc0d64430ee97aa304d6491328981c41282d78d92108b","os":"macOS"}
-[00:02:50.027] Browser WARN    Image with src "/auth/login_png.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:51.323] Server  LOG     Checking duplicate sessions for google-user, browser: Chrome
-[00:02:51.359] Server  LOG     Found 0 active sessions for google-user
-[00:02:51.359] Server  LOG     Found 0 conflicting sessions
-[00:02:51.401] Server  ERROR   (node:17568) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
-(Use `node --trace-deprecation ...` to show where the warning was created)
-[00:03:34.701] Browser LOG     Device info generated: {"browser":"Safari","deviceId":"device_1770282103026_zrmawe6d8jq","deviceName":"iPhone","fingerprint":"fb70a74cbab5475f0a7e583612bb79cfda2456e445192b17b6eca8f5a57444eb","os":"macOS"}
-[00:03:34.701] Browser LOG     Device info generated: {"browser":"Safari","deviceId":"device_1770282103026_zrmawe6d8jq","deviceName":"iPhone","fingerprint":"fb70a74cbab5475f0a7e583612bb79cfda2456e445192b17b6eca8f5a57444eb","os":"macOS"}
-[00:03:35.150] Browser WARN    Image with src "/auth/login_png.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:03:36.624] Server  LOG     Checking duplicate sessions for google-user, browser: Safari
-[00:03:36.661] Server  LOG     Found 0 active sessions for google-user
-[00:03:36.662] Server  LOG     Found 0 conflicting sessions
-[00:05:48.422] Server  LOG     🧾 Generating payment receipt...
-[00:05:48.436] Server  LOG     🎨 Generating HTML receipt...
-[00:05:48.457] Server  LOG     ✅ HTML generated
-[00:05:55.098] Server  LOG     ✅ Content loaded in browser
-[00:05:55.248] Server  LOG     ✅ PDF buffer created: 186170 bytes
-[00:05:55.295] Server  LOG     📤 Uploading receipt to Cloudinary...
-[00:06:01.428] Server  LOG     ✅ Receipt uploaded to Cloudinary: "https://res.cloudinary.com/dkg81hfgd/raw/upload/v1770282249/trustinn/receipts/receipts/receipt-69845ca084db9fa35beb8508-1770282243745.pdf"
-[00:06:05.117] Server  LOG     Payment confirmation sent to rajeshbyreddy95@gmail.com
-[00:06:05.118] Server  LOG     ✅ Receipt generated and email sent
-[00:18:08.958] Server  LOG     ✓ Compiled in 41ms
-[00:18:13.722] Server  LOG     ✓ Compiled in 62ms
-[00:18:15.957] Server  LOG     ✓ Compiled in 38ms
-[00:18:29.473] Server  ERROR   ⨯ ReferenceError: ImageCarousel is not defined
+[00:00:38.713] Server  LOG     ✓ Compiled in 233ms
+[00:00:43.854] Server  LOG     ✓ Compiled in 115ms

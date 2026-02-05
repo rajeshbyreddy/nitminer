@@ -1,18 +1,4 @@
 {
   "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
-  "/api/auth/generate-token/route": "app/api/auth/generate-token/route.js",
-  "/api/auth/session/check-duplicate/route": "app/api/auth/session/check-duplicate/route.js",
-  "/api/auth/verify-status/route": "app/api/auth/verify-status/route.js",
-  "/api/payments/initiate/route": "app/api/payments/initiate/route.js",
-  "/api/payments/verify/route": "app/api/payments/verify/route.js",
-  "/api/pricing/route": "app/api/pricing/route.js",
-  "/api/user/me/route": "app/api/user/me/route.js",
-  "/api/user/notifications/route": "app/api/user/notifications/route.js",
-  "/dashboard/page": "app/dashboard/page.js",
-  "/gallery/page": "app/gallery/page.js",
-  "/login/page": "app/login/page.js",
-  "/page": "app/page.js",
-  "/pricing/page": "app/pricing/page.js",
-  "/team/page": "app/team/page.js",
-  "/trustinn/page": "app/trustinn/page.js"
+  "/team/page": "app/team/page.js"
 }

@@ -1,18 +1,18 @@
 "use client"
-
+import Image from "next/image"
 export function TeamComponent() {
   const leadershipTeam = [
     {
       name: "Prof. P Radha Krishna",
       position: "CEO and Director",
-      image: "https://nitminer.com/team/RadhaKrishna.png",
+      image: "/images/team/radhakrisha.png",
       phone: "+91-XXXXXXXXXX",
       email: "radha@nitw.ac.in"
     },
     {
       name: "Dr. Sangharatna Godboley",
       position: "Chairman and Director",
-      image: "https://nitminer.com/team/Sangharatna.jpg",
+      image: "/images/team/sangarthana.png",
       phone: "+91-7013306805",
       email: "sanghu@nitw.ac.in"
     }
@@ -22,63 +22,63 @@ export function TeamComponent() {
     {
       name: "Mrs. Vani Puligilla",
       position: "Project Scientist",
-      image: "https://nitminer.com/team/Vani.jpg",
+      image: "/images/team/vani.png",
       phone: "+91-XXXXXXXXXX",
       email: "vani@nitw.ac.in"
     },
     {
       name: "Mr. Abhiraj Kumar",
       position: "Sr. Software Engineer",
-      image: "https://nitminer.com/team/Abhiraj.jpg",
+      image: "/images/team/abhirajkumar.png",
       phone: "+91-XXXXXXXXXX",
       email: "abhiraj@nitw.ac.in"
     },
     {
       name: "Mr. Kandrathi Chandrashekar",
       position: "Sr. Software Engineer",
-      image: "https://nitminer.com/team/Chandrashekar.jpg",
+      image: "/images/team/chandrasekhar.png",
       phone: "+91-XXXXXXXXXX",
       email: "chandrashekar@nitw.ac.in"
     },
     {
       name: "Mr. Nallella Nihal",
       position: "Jr. Software Engineer",
-      image: "https://nitminer.com/team/Nihal.jpg",
+      image: "/images/team/nihal.png",
       phone: "+91-XXXXXXXXXX",
       email: "nihal@nitw.ac.in"
     },
     {
       name: "Mr. Raj Kumar Gunda",
       position: "Jr. Programmer",
-      image: "https://nitminer.com/team/Raj.jpg",
+      image: "/images/team/rajkumar.png",
       phone: "+91-XXXXXXXXXX",
       email: "raj@nitw.ac.in"
     },
     {
       name: "Mr. Vishal Kumar Swain",
       position: "Junior Research Fellow (JRF)",
-      image: "https://nitminer.com/team/Vishal.jpg",
+      image: "/images/team/vishal.png",
       phone: "+91-XXXXXXXXXX",
       email: "vishal@nitw.ac.in"
     },
     {
       name: "Mr. Kiran Kumar Sahu",
       position: "Junior Research Fellow (JRF)",
-      image: "https://nitminer.com/team/Kiran.jpg",
+      image: "/images/team/kirankumar.png",
       phone: "+91-XXXXXXXXXX",
       email: "kiran@nitw.ac.in"
     },
     {
       name: "Mr. Eti Dhanush",
       position: "Intern",
-      image: "https://nitminer.com/team/Dhanush.jpg",
+      image: "/images/team/dhanush.png",
       phone: "+91-XXXXXXXXXX",
       email: "dhanush@nitw.ac.in"
     },
     {
       name: "Ms. ShriLakshmi Kakati",
       position: "Intern",
-      image: "https://nitminer.com/team/ShriLakshmi.jpg",
+      image: "/images/team/sreelakshmi.png",
       phone: "+91-XXXXXXXXXX",
       email: "shrilakshmi@nitw.ac.in"
     }
